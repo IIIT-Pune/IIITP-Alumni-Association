@@ -1,0 +1,58 @@
+{
+  "name": "alumni",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@progress/kendo-react-animation": "^3.13.0",
+    "@progress/kendo-react-treeview": "^3.13.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.4.1",
+    "mdbreact": "^4.26.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-card-flip": "^1.0.10",
+    "react-cool-tabs": "^1.1.6",
+    "react-dom": "^16.13.1",
+    "react-flipcard-2": "^0.3.2",
+    "react-flippy": "^0.1.5",
+    "react-images": "^1.1.7",
+    "react-login-modal": "^1.1.2",
+    "react-media": "^1.10.0",
+    "react-photo-collage": "^1.0.7",
+    "react-photo-gallery": "^8.0.0",
+    "react-profile-card": "^0.1.4",
+    "react-scripts": "3.4.1",
+    "react-simple-tree-menu": "^1.1.15",
+    "react-slideshow-image": "^1.4.2",
+    "semantic-ui-react": "^0.88.2",
+    "styled-components": "^5.1.0",
+    "wired-card": "^2.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
