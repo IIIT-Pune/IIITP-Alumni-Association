@@ -1,6 +1,16 @@
 import React, { useState, useCallback } from "react";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from 'react-photo-gallery';
+import { WiredCard } from "wired-card";
+import Header from '../secondaryComponents/Header'
+import NavbarPage from '../secondaryComponents/NavBar'
+import SideNav from '../secondaryComponents/SideNav'
+import Slider from '../secondaryComponents/Slider'
+import Signup from '../secondaryComponents/Signup'
+import CardContainer from '../secondaryComponents/CardContainer'
+import MapContainer from '../secondaryComponents/MapContainer'
+import Footer from '../secondaryComponents/Footer'
+import Socialhandle from '../primaryComponents/Socialhandle';
 
 const photos = [
     {
@@ -75,7 +85,10 @@ export default function PhotoGallery() {
     };
   
     return (
+
     <div>
+            < Header/>
+      < NavbarPage/>
       <div style={{textAlign: "center", backgroundColor:"rgb(40,40,40)", padding:40, color: "white"}}>
         <h1>
             PHOTO GALLERY
@@ -98,6 +111,7 @@ export default function PhotoGallery() {
           ) : null}
         </ModalGateway>
       </div>
+      <Footer />
     </div>
     );
   }

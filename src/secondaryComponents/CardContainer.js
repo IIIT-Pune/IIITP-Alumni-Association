@@ -7,6 +7,8 @@ export default class CardContainer extends React.Component {
       <div style={{display: "flex", justifyContent: "center", flexFlow: "row wrap"}}>
                 <CardBundle
                 title="Recent Events"
+                link="/Events"
+                ltitle="Events"
                 c1heading="Event 1"
                 c2heading="Event 2"
                 c3heading="Event 3"
@@ -18,6 +20,8 @@ export default class CardContainer extends React.Component {
                 />
                 <CardBundle
                 title="Top News"
+                link="/News"
+                ltitle="News"
                 c1heading="News 1"
                 c2heading="News 2"
                 c3heading="News 3"
@@ -29,6 +33,8 @@ export default class CardContainer extends React.Component {
                 />
                 <CardBundle
                 title="Career"
+                link="/Career"
+                ltitle="Career"
                 c1heading="job 1"
                 c2heading="job 2"
                 c3heading="job 3"
