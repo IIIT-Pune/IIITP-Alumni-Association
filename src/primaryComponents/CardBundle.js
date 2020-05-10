@@ -2,19 +2,19 @@ import React from 'react';
 import './CardBundle.css'
 
 const parentcontainer = {
-  height: 400,
-  margin:40,
-  marginBottom: 500,
+  height: 550,
   borderRadius: 10,
+  margin:40,
   
 };
 
 export default class CardBundle extends React.Component {
   render(){
       return (
-        <div class="card" style={parentcontainer}>
+        <div class="card pcc" style={parentcontainer}>
         <article class="card-body">
-          <h4 class="card-title mb-4 mt-1" >{this.props.title}</h4>
+          <h4 class="card-title mb-4 mt-1 head" >{this.props.title}<a class="clink" title={this.props.ltitle} href={this.props.link}>&rarr;</a></h4>
+
           <div class="container">
             <Card heading={this.props.c1heading} content={this.props.c1content}/>
             <Card heading={this.props.c2heading} content={this.props.c2content}/>
@@ -26,6 +26,8 @@ export default class CardBundle extends React.Component {
       );
   }
 }
+
+
 
 function Card(props) {
   return (

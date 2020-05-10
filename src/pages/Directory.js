@@ -2,6 +2,17 @@ import React from 'react';
 import { TreeView, processTreeViewItems, handleTreeViewCheckChange, moveTreeViewItem, TreeViewDragAnalyzer, TreeViewDragClue } from '@progress/kendo-react-treeview'
 import '@progress/kendo-react-animation'
 
+import Header from '../secondaryComponents/Header'
+import NavbarPage from '../secondaryComponents/NavBar'
+import SideNav from '../secondaryComponents/SideNav'
+import Slider from '../secondaryComponents/Slider'
+import Signup from '../secondaryComponents/Signup'
+import CardContainer from '../secondaryComponents/CardContainer'
+import MapContainer from '../secondaryComponents/MapContainer'
+import Footer from '../secondaryComponents/Footer'
+import Socialhandle from '../primaryComponents/Socialhandle';
+
+
     const Btree = [{
         text: 'Btech', expanded: false, items: [
             { text: '2016-2020', expanded: false, items: [
@@ -83,6 +94,8 @@ import '@progress/kendo-react-animation'
     export default function Directory(){
         return(
             <div>
+                < Header/>
+                < NavbarPage/>
                 <div style={{textAlign: "center", backgroundColor:"rgb(40,40,40)", padding:40, color: "white"}}>
                     <h1>
                         ALUMNI DIRECTORY
@@ -99,6 +112,7 @@ import '@progress/kendo-react-animation'
                         <App tree={Ptree}/>
                     </div>
                 </div>
+                < Footer/>
             </div>
         );
     }

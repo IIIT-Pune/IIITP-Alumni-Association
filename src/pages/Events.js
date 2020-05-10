@@ -1,9 +1,21 @@
 import React from 'react';
 import { WiredCard } from "wired-card";
+import Header from '../secondaryComponents/Header'
+import NavbarPage from '../secondaryComponents/NavBar'
+import SideNav from '../secondaryComponents/SideNav'
+import Slider from '../secondaryComponents/Slider'
+import Signup from '../secondaryComponents/Signup'
+import CardContainer from '../secondaryComponents/CardContainer'
+import MapContainer from '../secondaryComponents/MapContainer'
+import Footer from '../secondaryComponents/Footer'
+import Socialhandle from '../primaryComponents/Socialhandle';
+
  
 export default function Events () {
     return (
         <div>
+        < Header/>
+      < NavbarPage/>
             <div style={{textAlign: "center", backgroundColor:"rgb(40,40,40)", padding:40, color: "white"}}>
                 <h1>
                     EVENTS
@@ -17,6 +29,7 @@ export default function Events () {
             <Card elevation="3" datepublished="date" contentl1="card with elevation is here,"/>
             <Card elevation="3" datepublished="date" contentl1="card with elevation is here," contentl2="i thjink rhis wil look" contentl3="hworub fsobfoiwr fpijewp eptk" contentl4="ivva kbe lewojp wp4hnfp["/>
             </div>
+            <Footer />
         </div>
     );
 }
